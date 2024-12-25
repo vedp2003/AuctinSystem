@@ -37,12 +37,38 @@ The **Online Auction System** is a fully functional, web-based application desig
   - Create and manage accounts for customer representatives.
   - Generate detailed sales reports:
     - Total earnings.
-    - Earnings by item, category, or user.
+    - Earnings per item, category, or user.
     - Best-selling items and highest-spending users.
+  - See/monitor all System Account Information
 - Customer representatives can:
   - Respond to user queries and assist with account or auction-related issues.
-  - Remove illegal or inappropriate auctions.
-  - Reset user passwords.
+  - Remove user-requested or illegal/inappropriate auctions.
+  - Delete requested bids. 
+  - Modify user information (such as password). 
+
+
+
+---
+
+## Key Functionalities
+### For Buyers
+- Place manual or automated bids.
+- Receive alerts about auctions of interest.
+- View auction history and personal participation details.
+
+### For Sellers
+- List items for sale with custom auction settings.
+- Monitor active auctions and bids.
+- Manage post-auction notifications for winning bids.
+
+### For Administrators
+- Manage customer representative accounts.
+- Monitor and moderate platform activity.
+- Generate comprehensive sales reports.
+
+### For Customer Representatives
+- Handle user queries and support.
+- Modify or delete bidding/auction entries.
 
 ---
 
@@ -117,25 +143,4 @@ The schema includes tables for:
 
 ---
 
-## Key Functionalities
-### For Buyers
-- Place manual or automated bids.
-- Receive alerts about auctions of interest.
-- View auction history and personal participation details.
-
-### For Sellers
-- List items for sale with custom auction settings.
-- Monitor active auctions and bids.
-- Manage post-auction notifications for winning bids.
-
-### For Administrators
-- Manage customer representative accounts.
-- Monitor and moderate platform activity.
-- Generate comprehensive sales reports.
-
-### For Customer Representatives
-- Handle user queries and support.
-- Modify or delete auction entries if necessary.
-
----
-
+Feel free to run this project on the local server!
