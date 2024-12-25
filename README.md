@@ -108,7 +108,7 @@ Before running the project, ensure you have the following installed:
 4. **Configure Database Connection:**
    - Edit `ApplicationDB.java` and update the database credentials:
      ```java
-     connection = DriverManager.getConnection(connectionUrl,"USERNAME", "PASSWORD"); // Edit the USERNAME and PASSWORD to match the database crendentials 
+     connection = DriverManager.getConnection(connectionUrl,"USERNAME", "PASSWORD"); // Edit the USERNAME and PASSWORD to match the database credentials 
      ```
 
 5. **Run the Application:**
